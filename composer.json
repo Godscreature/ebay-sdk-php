@@ -2,7 +2,7 @@
     "name": "godscreature/ebay-sdk-php",
     "type": "library",
     "license": "(Apache-2.0 and MIT)",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "support": {
         "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
     },
@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "godscreature\\eBaySDK\\": "src/"
+            "DTS\\eBaySDK\\": "src/"
         },
         "files": ["src/functions.php"]
     },
     "autoload-dev": {
         "psr-4": {
-            "godscreature\\eBaySDK\\Test\\": "test/"
+            "DTS\\eBaySDK\\Test\\": "test/"
         },
         "classmap": ["build/"]
     }
