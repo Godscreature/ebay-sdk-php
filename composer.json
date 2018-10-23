@@ -1,7 +1,6 @@
 {
     "name": "godscreature/ebay-sdk-php",
     "license": "(Apache-2.0 and MIT)",
-    "minimum-stability": "stable",
     "require": {
         "php": ">=5.5",
         "guzzlehttp/guzzle": "~6.0",
