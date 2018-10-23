@@ -3,13 +3,6 @@
     "type": "library",
     "license": "(Apache-2.0 and MIT)",
     "minimum-stability": "dev",
-    "authors": [
-        {
-            "name": "David T. Sadler",
-            "email": "davidtsadler@googlemail.com",
-            "homepage": "http://davidtsadler.com"
-        }
-    ],
     "support": {
         "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
     },
@@ -25,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "DTS\\eBaySDK\\": "src/"
+            "godscreature\\eBaySDK\\": "src/"
         },
         "files": ["src/functions.php"]
     },
     "autoload-dev": {
         "psr-4": {
-            "DTS\\eBaySDK\\Test\\": "test/"
+            "godscreature\\eBaySDK\\Test\\": "test/"
         },
         "classmap": ["build/"]
     }
